@@ -39,3 +39,8 @@ button {
     background-color: #a2a8d3;
     padding: 30px;
 }
+
+.equal-key {
+    grid-column: -2;
+    grid-row: 2 / span 4;
+}
