@@ -6,6 +6,7 @@ nav {
     margin: 0 auto;
     max-width: 500px;
     margin-top: 100px;
+    border-radius: 5px;
 }
 
 section {
@@ -13,7 +14,8 @@ section {
     max-width: 500px;
     background-color: #38598b;
     padding: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
 }
  
 .calculator-keys {
@@ -38,6 +40,7 @@ background-color: #e7eaf6;
 button {
     background-color: #a2a8d3;
     padding: 30px;
+    border-radius: 5px;
 }
 
 .equal-key {
