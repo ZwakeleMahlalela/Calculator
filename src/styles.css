@@ -1,0 +1,41 @@
+body{
+   background-color: #1F1F1F;
+}
+
+nav {
+    margin: 0 auto;
+    max-width: 500px;
+    margin-top: 100px;
+}
+
+section {
+    margin: 0 auto;
+    max-width: 500px;
+    background-color: #38598b;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+ 
+.calculator-keys {
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(4, 1fr);
+    cursor: pointer;
+    transition: all 5ms ease-in-out;
+}
+
+.calculator-keys :hover {
+background-color: #e7eaf6;
+
+}
+
+.display {
+    padding: 40px 115px;
+    margin-bottom: 10px;
+
+}
+
+button {
+    background-color: #a2a8d3;
+    padding: 30px;
+}
